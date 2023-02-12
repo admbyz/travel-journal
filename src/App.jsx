@@ -3,10 +3,11 @@ import Content from "./components/Content";
 import data from "./data";
 
 function App() {
+  const contentData = data.map((item) => <Content key={item.id} {...item} />);
   return (
     <div className="App">
       <Header />
-      <Content />
+      {contentData}
     </div>
   );
 }

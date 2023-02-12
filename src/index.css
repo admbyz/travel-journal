@@ -13,3 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.App {
+  max-width: 550px;
+}
+
+.header {
+  display: flex;
+  background-color: #f55a5a;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: #ffffff;
+  font-size: 14px;
+}
